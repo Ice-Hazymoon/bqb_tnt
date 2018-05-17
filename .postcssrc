@@ -1,0 +1,15 @@
+{
+    "map": true,
+    "plugins": {
+        "autoprefixer": {
+            "browsers": "> 1% in CN",
+            "grid": true
+        },
+        "postcss-pxtorem": {
+            "rootValue": 16,
+            "propList": ["*"],
+            "selectorBlackList": ["html"],
+            "replace": false
+        }
+    }
+}

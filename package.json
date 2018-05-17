@@ -1,0 +1,22 @@
+{
+  "name": "biaoqinbao",
+  "version": "0.0.1",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "node ./node_modules/gulp/bin/gulp.js",
+    "build": "node ./node_modules/gulp/bin/gulp.js"
+  },
+  "author": "Ice-Hazmoon <imiku.me@gmail.com>",
+  "license": "",
+  "devDependencies": {
+    "autoprefixer": "^8.3.0",
+    "browser-sync": "^2.23.7",
+    "gulp": "^3.9.1",
+    "gulp-parcel": "^0.3.5",
+    "gulp-plumber": "^1.2.0",
+    "node-sass": "^4.9.0",
+    "normalize.css": "^8.0.0",
+    "postcss-pxtorem": "^4.0.1"
+  }
+}
