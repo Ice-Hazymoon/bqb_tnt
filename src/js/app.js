@@ -70,7 +70,7 @@
 
     // 设置日期
     let d = new Date();
-    let text = d.getFullYear()+'年'+(d.getMonth()+1)+'月'+d.getDate()+'日，晴。和昨天一样没吃饭。一直在群里等人带我。  昨天说好今天带我的，现在他们又说今天要援交没有时间带我，还说不仅今天往后11号、12号都不会带我，居然还说以后都不带我了，简直不能忍一定要好好记下来';
+    let text = d.getFullYear()+'年'+(d.getMonth()+1)+'月'+d.getDate()+'日，晴。和昨天一样没吃饭。一直在群里等人带我。  昨天说好今天带我的，现在他们又说今天要援交没有时间带我，还说不仅今天往后'+(d.getDate()+1)+'号、'+(d.getDate()+2)+'号都不会带我，居然还说以后都不带我了，简直不能忍一定要好好记下来';
     document.getElementById('text').innerText = text;
 
     // 上传本地图片
