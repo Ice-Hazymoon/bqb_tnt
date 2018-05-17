@@ -1,6 +1,6 @@
 # 表情包在线制作
 
-在线预览: [https://tools.imiku.me/bqb/](https://tools.imiku.me/bqb/)
+在线预览: [https://ice-hazymoon.github.io/bqb_tnt/dist/](https://ice-hazymoon.github.io/bqb_tnt/dist/)
 
 ## 功能
 
