@@ -21,7 +21,7 @@ gulp.task('server', ()=>{
     });
 })
 
-gulp.task('build', ()=>{
+gulp.task('start', ()=>{
     gulp.src('./src/**/*.html', {read:false})
     .pipe(parcel({
         outDir: './dist', 
@@ -35,4 +35,18 @@ gulp.task('build', ()=>{
     .pipe(gulp.dest('./dist'))
 })
 
-gulp.task('default', ['build', 'server']);
+gulp.task('build', ()=>{
+    gulp.src('./src/**/*.html', {read:false})
+    .pipe(parcel({
+        outDir: './dist', 
+        publicURL: './',
+        minify: true,
+        watch: false,
+        sourceMaps: false,
+        cache: false,
+        cacheDir: '.parcelCache',
+    }))
+    .pipe(gulp.dest('./dist'))
+})
+
+gulp.task('default', ['start', 'server']);

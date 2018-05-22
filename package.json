@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "scripts": {
     "start": "node ./node_modules/gulp/bin/gulp.js",
-    "build": "node ./node_modules/gulp/bin/gulp.js"
+    "build": "node ./node_modules/gulp/bin/gulp.js build"
   },
   "author": "Ice-Hazmoon <imiku.me@gmail.com>",
   "license": "",
