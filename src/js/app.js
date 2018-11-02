@@ -1,5 +1,3 @@
-import { SSL_OP_CISCO_ANYCONNECT } from "constants";
-
 (function(){
     let pre = document.getElementById('text')
 
@@ -74,7 +72,6 @@ import { SSL_OP_CISCO_ANYCONNECT } from "constants";
             if(files[0].type.indexOf('gif') != -1){
                 alert('暂不支持GIF文件')
             }else{
-                let url = blob = URL.createObjectURL(files[0]);
                 getBase64(files[0]).then(
                     data => {
                         document.getElementById('uploadImg').src = data;
